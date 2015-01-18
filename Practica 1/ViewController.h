@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *Imageinfo;
+- (IBAction)mostrar:(id)sender;
+- (IBAction)siguiente:(id)sender;
+- (IBAction)anterior:(id)sender;
 
 
 @end
